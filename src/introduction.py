@@ -17,7 +17,7 @@ from utils.markdown import to_markdown
 nest_asyncio.apply()
 
 
-model = OpenAIModel("gpt-4o")
+model = Agent("gemini-1.5-flash")
 
 # --------------------------------------------------------------
 # 1. Simple Agent - Hello World Example
